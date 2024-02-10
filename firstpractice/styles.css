@@ -1,0 +1,54 @@
+* {
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+}
+#external {
+    color: darkmagenta;
+}
+h1 {
+    display: inline;
+}
+
+#pcso-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.number {
+    font-size: 50px;
+    padding: 5px;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 100%;
+    display: inline;
+}
+
+img[class="lotto-img"]{
+    height: 75px;
+    width: 100px;
+}
+
+img ~ main {
+    margin: 10px;
+}
+
+.winner ~ .no-winner {
+    background-color: grey;
+}
+
+main .winner {
+    background-image: url(https://usagif.com/wp-content/uploads/gif/confetti-17.gif);
+}
+
+main > section {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.no-winner + .next-month
+{
+	background-image: url(https://newsinfo.inquirer.net/files/2024/01/623634-e1705594353966.jpeg);
+    background-size:cover;
+}
